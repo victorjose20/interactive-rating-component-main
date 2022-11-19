@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --botao: #222A35;
+    --font: 'Overpass';
+    --Orange: hsl(25, 97%, 53%);
+}
+
+body{
+    background-color: var(--Very-Dark-Blue);
+    font-family: var(--font);
+    font-size: 15px;
+    color: var(--branco);
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+   
+}
+.part-1{
+    background-color: var(--Dark-Blue);
+    width: 375px;
+    height: 355px;
+    border-radius: 25px;
+    padding: 1px 15px;
+    
+}
+.titulo-part-1{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 1px 1px 10px 10px;
+   
+}
+
+.texto-part-1{
+    margin: 1px 10px;
+    color: var(--Light-Grey);
+}
+.part-1 img{
+    margin: 20px 25px;
+    padding: 10px;
+    background-color: var(--botao);
+    border-radius: 17px;
+
+    
+}
+
+.botao{
+    height: 50px;
+    line-height: 49px;
+    width: 50px;
+    background: var(--botao);
+    font-weight: bold;
+    border-radius: 67%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 32px 8px;
+    
+}
+.botao:hover{
+    background-color: var(--Orange);
+
+}
+.botao:focus{
+    background-color: var(--Medium-Grey);
+    
+}
+.submit{
+    height: 40px;
+    width: 325px;
+    margin: 1px 1px 1px 10px;
+    border: none;
+    border-radius: 20px;
+    color: var(--Orange);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+.submit:hover{
+    color: var(--branco);
+    background-color: var(--Orange);
+}
+
+.part-2{
+    background-color: var(--Dark-Blue);
+    width: 375px;
+    height: 355px;
+    border-radius: 25px;
+    padding: 1px 20px;
+    text-align: center;
+
+    
+}
+.alternativo{
+    display: none;
+}
+.part-2 img{
+    margin: 25px 1px;
+}
+
+.titulo-part-2{
+    margin: 25px 1px;
+}
+.texto-part-2{
+    background-color: var(--botao);
+    color: var(--Orange);
+    border-radius: 30px;
+    width: 155px;
+    margin-left: 90px;
+}
+
